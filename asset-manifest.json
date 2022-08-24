@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ps-project/static/css/main.0cf91d3e.css",
+    "main.css": "/ps-project/static/css/main.1b2ba5d4.css",
     "main.js": "/ps-project/static/js/main.5b0be259.js",
     "static/js/787.7eec0dc1.chunk.js": "/ps-project/static/js/787.7eec0dc1.chunk.js",
     "static/media/cwok_casual_58.png": "/ps-project/static/media/cwok_casual_58.9b7bb77af777fd5cb097.png",
@@ -20,12 +20,12 @@
     "static/media/list.svg": "/ps-project/static/media/list.2d28be531d82f762fd11d029d7cf4cc4.svg",
     "static/media/logo.svg": "/ps-project/static/media/logo.64e8c73a99e0b6f54a887ac5fb8e2159.svg",
     "index.html": "/ps-project/index.html",
-    "main.0cf91d3e.css.map": "/ps-project/static/css/main.0cf91d3e.css.map",
+    "main.1b2ba5d4.css.map": "/ps-project/static/css/main.1b2ba5d4.css.map",
     "main.5b0be259.js.map": "/ps-project/static/js/main.5b0be259.js.map",
     "787.7eec0dc1.chunk.js.map": "/ps-project/static/js/787.7eec0dc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cf91d3e.css",
+    "static/css/main.1b2ba5d4.css",
     "static/js/main.5b0be259.js"
   ]
 }
