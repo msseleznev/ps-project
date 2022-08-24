@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ps-project/static/css/main.0cf91d3e.css",
+    "main.js": "/ps-project/static/js/main.5b0be259.js",
+    "static/js/787.7eec0dc1.chunk.js": "/ps-project/static/js/787.7eec0dc1.chunk.js",
+    "static/media/cwok_casual_58.png": "/ps-project/static/media/cwok_casual_58.9b7bb77af777fd5cb097.png",
+    "static/media/singMe.svg": "/ps-project/static/media/singMe.2fb35d86148e0db9af5f651c671408c8.svg",
+    "static/media/rosreestr.svg": "/ps-project/static/media/rosreestr.12cb394828017c6c1c537b32046c54b5.svg",
+    "static/media/AvenirNextCyr-Regular.eot": "/ps-project/static/media/AvenirNextCyr-Regular.3ae7af43a22fc7caef32.eot",
+    "static/media/AvenirNextCyr-Regular.ttf": "/ps-project/static/media/AvenirNextCyr-Regular.d5515aff04ff81140f75.ttf",
+    "static/media/AvenirNextCyr-Bold.eot": "/ps-project/static/media/AvenirNextCyr-Bold.74f3dad98deaf83f1744.eot",
+    "static/media/AvenirNextCyr-Bold.ttf": "/ps-project/static/media/AvenirNextCyr-Bold.d7a7f3ccfe2942965a98.ttf",
+    "static/media/tinkoff.svg": "/ps-project/static/media/tinkoff.e11cddae7f6202f00c470575250b0906.svg",
+    "static/media/AvenirNextCyr-Bold.woff": "/ps-project/static/media/AvenirNextCyr-Bold.93c051e6b3c9fc42526b.woff",
+    "static/media/AvenirNextCyr-Regular.woff": "/ps-project/static/media/AvenirNextCyr-Regular.1f3e188cad9e2dc3259b.woff",
+    "static/media/alfa.svg": "/ps-project/static/media/alfa.98d02c90a41d0e6fe40ed44fe08cb296.svg",
+    "static/media/sovkom.svg": "/ps-project/static/media/sovkom.cff2176be62793412e43a5194b2fb5d0.svg",
+    "static/media/home.svg": "/ps-project/static/media/home.e9dcfda7b002b76f997756dd46ebf15b.svg",
+    "static/media/handshake.svg": "/ps-project/static/media/handshake.53d646f9b9537b5bd3f674c215058937.svg",
+    "static/media/list.svg": "/ps-project/static/media/list.2d28be531d82f762fd11d029d7cf4cc4.svg",
+    "static/media/logo.svg": "/ps-project/static/media/logo.64e8c73a99e0b6f54a887ac5fb8e2159.svg",
+    "index.html": "/ps-project/index.html",
+    "main.0cf91d3e.css.map": "/ps-project/static/css/main.0cf91d3e.css.map",
+    "main.5b0be259.js.map": "/ps-project/static/js/main.5b0be259.js.map",
+    "787.7eec0dc1.chunk.js.map": "/ps-project/static/js/787.7eec0dc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cf91d3e.css",
+    "static/js/main.5b0be259.js"
+  ]
+}
