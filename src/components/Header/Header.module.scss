@@ -1,0 +1,56 @@
+@import 'src/assets/variables';
+
+.header {
+  background: #FFFFFF;
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 63px;
+    background: #FFFFFF;
+    @media screen and (max-width: 485px) {
+      justify-content: end;
+      padding: 5px;
+      text-align: end;
+    }
+
+    .preview {
+      display: flex;
+      color: $textColorLight;
+
+      .items {
+        margin-left: 16px;
+        .firstItem {
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 18px;
+        }
+        .secondItem {
+          font-size: 15px;
+          line-height: 18px;
+        }
+      }
+    }
+
+    .contacts {
+      text-align: end;
+
+      .phone {
+        font-weight: 750;
+        font-size: 18px;
+        line-height: 22px;
+        color: $textColor;
+      }
+
+      .info {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: $textColorLight;
+      }
+    }
+  }
+}
+

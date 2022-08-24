@@ -1,0 +1,21 @@
+@import 'src/assets/variables';
+
+.selectControl {
+  display: block;
+  width: 100%;
+  padding: 13px 12px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #333333;
+  background-image: none;
+  border: 1px solid #efefef;
+  border-radius: 2px;
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  cursor:pointer;
+  &:focus {
+    border-color: $uiItems;
+    box-shadow: 0 0 12px #f8e394;
+  }
+}

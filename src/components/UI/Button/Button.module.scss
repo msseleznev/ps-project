@@ -1,0 +1,44 @@
+@import 'src/assets/variables';
+
+.default {
+  color:$textColor;
+  background-color: $uiItems;
+  border-radius: 6px;
+  padding: 14px 10px;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-image: none;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+
+  &:hover {
+    background-color: #f1cf32;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: lightgrey;
+    border: none;
+    color: darkgrey;
+
+  }
+}
+
+.red {
+  @extend .default;
+  &:hover {
+
+  }
+}
+
+
+
+
+

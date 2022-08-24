@@ -1,0 +1,46 @@
+@import 'src/assets/variables';
+
+.footer {
+  background: $secondaryBG;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 63px;
+    @media screen and (max-width: 485px) {
+      justify-content: end;
+      padding: 5px;
+      text-align: end;
+    }
+
+    .preview {
+      display: flex;
+      color: $textColorLight;
+      text-align: right;
+      white-space: pre-line;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+    }
+
+    .contacts {
+      .phone {
+        font-weight: 750;
+        font-size: 18px;
+        line-height: 22px;
+        color: $textColorLight;
+      }
+
+      .info {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: $textColorLight;
+      }
+    }
+  }
+}

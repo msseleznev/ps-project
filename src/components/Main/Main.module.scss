@@ -1,0 +1,55 @@
+@import 'src/assets/variables';
+
+.main {
+  display: flex;
+  background: linear-gradient(90deg, #F6F7F8 44.45%, rgba(246, 247, 248, 0) 82.16%);
+  box-shadow: inset 0 44px 50px #E6E7E8;
+  position: relative;
+  align-items: end;
+  justify-content: right;
+  width: 100%;
+  .mainContainer {
+
+    .content {
+      margin-top: 100px;
+      padding-bottom: 40px;
+      color: $textColor;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      .body {
+        font-weight: 700;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 61px;
+        @media screen and (max-width: 650px) {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+    }
+
+    .infoList {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 100px;
+    }
+  }
+}
+.main img {
+  position:absolute;
+  max-width: 100%;
+  max-height: 100%;
+  right: 4%;
+  left: 47%;
+  z-index: -1;
+}
+
+
+

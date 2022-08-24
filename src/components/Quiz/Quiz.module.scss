@@ -1,0 +1,93 @@
+@import 'src/assets/variables';
+
+.quiz {
+  .quizContainer {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    white-space: pre-line;
+
+    .quizItems {
+      max-width: 540px;
+
+      .quizTitle {
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 40px;
+      }
+
+      .form {
+        display: flex;
+        flex-direction: column;
+        max-width: 540px;
+
+        .title {
+          margin-bottom: 20px;
+          color: $textColorLight;
+        }
+
+        .formItems {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          min-height: 300px;
+
+          .formFooter {
+            text-align: center;
+          }
+        }
+      }
+
+      .iconsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .icon {
+          margin: 15px;
+        }
+      }
+    }
+
+    .progressBar {
+      padding: 30px;
+      max-width: 540px;
+      min-height: 170px;
+      background: $secondaryBG;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 37px;
+    color: $textColor;
+  }
+
+  h4 {
+    font-weight: 450;
+    font-size: 25px;
+    line-height: 31px;
+  }
+
+  h5 {
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 125.91%;
+  }
+
+  a {
+    color: $uiItems;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+}
